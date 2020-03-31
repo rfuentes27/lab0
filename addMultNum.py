@@ -6,8 +6,9 @@ def addMult(f):
     end = int(f[0]) + 1
     for i in range(1, end):
        temp = f[i].split()
-       print(int(temp[0]) + int(temp[1]), end =" ")
-       print(int(temp[0]) * int(temp[1]))
+       add = int(temp[0]) + int(temp[1])
+       mult = int(temp[0]) * int(temp[1])
+       print add, mult
     return
 
 if (__name__ == "__main__"):
